@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "50dd63b9-fa36-49f2-bc8d-b147d9f92afb": {
+      "ProjectGuid": "50dd63b9-fa36-49f2-bc8d-b147d9f92afb",
+      "DisplayName": "RescuedAnimals",
+      "ColorIndex": 0
+    },
+    "815e38b3-70f7-4592-823e-48e51deb2810": {
+      "ProjectGuid": "815e38b3-70f7-4592-823e-48e51deb2810",
+      "DisplayName": "RescuedAnimals.Common",
+      "ColorIndex": 1
+    },
+    "52e25a6b-7936-49bf-a28b-e3b5a93782c5": {
+      "ProjectGuid": "52e25a6b-7936-49bf-a28b-e3b5a93782c5",
+      "DisplayName": "RescuedAninmals.Common",
+      "ColorIndex": 2
+    },
+    "03170578-f569-47d3-a279-2bb35a40e662": {
+      "ProjectGuid": "03170578-f569-47d3-a279-2bb35a40e662",
+      "DisplayName": "RescuedAnimals.DatabaseAccess",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
