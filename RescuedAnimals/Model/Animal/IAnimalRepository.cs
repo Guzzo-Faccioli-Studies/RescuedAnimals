@@ -1,5 +1,4 @@
 ﻿using RescuedAninmals.Common;
-using System.Linq.Expressions;
 
 namespace RescuedAnimals.Model
 
@@ -10,7 +9,7 @@ namespace RescuedAnimals.Model
 
         Task<ApplicationResult<Animal>> Get(Guid id);
 
-        Task<ApplicationResult<Animal>> GetAll(Expression<Func<Animal, bool>> filter, PagingOptions pagingOptions);
+        Task<ApplicationResult<CollectionResult<Animal>>> GetAll(AnimalFilter filter, PagingOptions pagingOptions);
 
         Task<ApplicationResult> Update(Animal animal);
 

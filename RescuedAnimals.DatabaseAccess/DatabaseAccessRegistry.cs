@@ -1,15 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
-
+using RescuedAnimals.DatabaseAccess.Repositories;
+using RescuedAnimals.Model;
 
 namespace RescuedAnimals.DatabaseAccess
 {
     public static class DatabaseAccessRegistry { 
-        public static IServiceCollection AddCatalogDatabaseAccess(this IServiceCollection services, string connectionString, bool inMemory = false)
+        public static IServiceCollection AddAnimalDatabaseAccess(this IServiceCollection services, string connectionString, bool inMemory = false)
         {
             if (inMemory)
             {

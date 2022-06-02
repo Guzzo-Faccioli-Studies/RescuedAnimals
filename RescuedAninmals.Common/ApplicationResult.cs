@@ -2,7 +2,7 @@
 {
     public class ApplicationResult<T> : ApplicationResult
     {
-        public T Result { get; set; }
+        public T? Result { get; set; }
     }
 
     public class ApplicationResult

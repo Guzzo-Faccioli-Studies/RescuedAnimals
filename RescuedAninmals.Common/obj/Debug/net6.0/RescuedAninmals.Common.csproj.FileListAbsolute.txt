@@ -1,0 +1,5 @@
+C:\Users\Guilherme\Projetos C#\RescuedAnimals\RescuedAninmals.Common\obj\Debug\net6.0\RescuedAninmals.Common.csproj.AssemblyReference.cache
+C:\Users\Guilherme\Projetos C#\RescuedAnimals\RescuedAninmals.Common\obj\Debug\net6.0\RescuedAninmals.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Guilherme\Projetos C#\RescuedAnimals\RescuedAninmals.Common\obj\Debug\net6.0\RescuedAninmals.Common.AssemblyInfoInputs.cache
+C:\Users\Guilherme\Projetos C#\RescuedAnimals\RescuedAninmals.Common\obj\Debug\net6.0\RescuedAninmals.Common.AssemblyInfo.cs
+C:\Users\Guilherme\Projetos C#\RescuedAnimals\RescuedAninmals.Common\obj\Debug\net6.0\RescuedAninmals.Common.csproj.CoreCompileInputs.cache

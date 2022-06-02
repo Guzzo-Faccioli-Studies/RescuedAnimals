@@ -7,6 +7,6 @@ namespace RescuedAnimals.DatabaseAccess
     {   public AnimalsContext(DbContextOptions<AnimalsContext> options) : base(options)
         {
         }
-        public DbSet<Animal> RescuedAnimals { get; set; }
+        public DbSet<Animal> Animals { get; set; }
     }
 }

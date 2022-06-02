@@ -8,7 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\RescuedAnimals.DatabaseAccess\RescuedAnimals.DatabaseAccess.csproj" />
     <ProjectReference Include="..\RescuedAninmals.Common\RescuedAninmals.Common.csproj" />
   </ItemGroup>
 

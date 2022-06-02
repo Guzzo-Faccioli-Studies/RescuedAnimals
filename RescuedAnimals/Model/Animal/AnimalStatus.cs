@@ -2,7 +2,7 @@
 {
     public enum AnimalStatus
     {
-        Consulting,
+        Consulting = 1,
         Injured,
         UnderTreatment,
         Healed
