@@ -1,4 +1,6 @@
-﻿namespace RescuedAnimals.Model
+﻿using RescuedAnimals.Model.Veterinarians;
+
+namespace RescuedAnimals.Model
 {
     public class Animal
     {

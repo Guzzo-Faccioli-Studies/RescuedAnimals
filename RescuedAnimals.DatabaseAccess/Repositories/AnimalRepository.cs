@@ -70,8 +70,38 @@ namespace RescuedAnimals.DatabaseAccess.Repositories
             return result;
         }
 
-        public Task<ApplicationResult<CollectionResult<Animal>>> GetAll(AnimalFilter filter, PagingOptions pagingOptions)
+        public async Task<ApplicationResult<CollectionResult<Animal>>> GetAll(AnimalFilter filter, PagingOptions pagingOptions)
         {
+            var query = Animals;
+
+            if (filter.VeterinarianId != null)
+            {
+                query = query.Where(x => x.VeterinarianId == filter.VeterinarianId);
+            }
+
+            query = query.Where(x => x.Name == filter.Name);           
+            query = query.Where(x => x.Type == filter.Type);
+            query = query.Where(x => x.Injury == filter.Injury);
+
+            var items = await query.Skip(pagingOptions.Offset).Take(pagingOptions.Limit).ToListAsync();
+            var total = await query.CountAsync();
+
+            var result = new ApplicationResult<CollectionResult<Animal>>()
+            {
+                Result = new CollectionResult<Animal>
+                {
+                    Items = items,
+                    Total = total
+                }
+            };
+
+            if (total == 0)
+            {
+                result.Errors.Add("No items found for the specified criteria");
+            }
+
+            return result;
+
         }
     }
 }
